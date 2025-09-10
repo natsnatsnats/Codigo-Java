@@ -11,7 +11,6 @@ class Lampada {
 class Main {
     public static void main(String[] args) {
         Lampada lampada = new Lampada(110);
-        System.out.println("Voltagem: " + lampada.getVoltagem());
     }
 }
 
