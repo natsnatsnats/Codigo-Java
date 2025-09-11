@@ -12,6 +12,10 @@ class Livro {
         this.paginaAtual = 1; // Começa na primeira página
     }
 
+    public String toString(){
+        return "Título: " + this.titulo + "\nCapa: " + this.capa + "\nFolhas: " + this.folhas + "\nPágina Atual: " + this.paginaAtual;
+    }
+
     // Método para avançar uma página
     public void virarPagina() {
         if (this.paginaAtual < this.folhas) {
