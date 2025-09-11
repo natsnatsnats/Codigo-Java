@@ -10,6 +10,10 @@ class ContaBancaria {
         this.valor = valorInicial;
     }
 
+    public String toString(){
+        return "Banco: " + this.banco + "\nPropietário: " + this.proprietario + "\nValor: " + this.valor;
+    }
+
     // Método para depositar dinheiro
     public void depositar(float quantia) {
         this.valor += quantia;
