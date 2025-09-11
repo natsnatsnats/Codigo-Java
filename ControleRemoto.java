@@ -10,6 +10,10 @@ class ControleRemoto {
         this.ligado = false; // Começa sempre desligado
     }
 
+    public String toString(){
+        return "Marca: " + this.marca + "\nPilhas: " + this.pilhas + "\nEstado Atual: " + this.ligado;
+    }
+
     // Método para ligar o controle
     public void ligar() {
         if (!this.ligado) {
