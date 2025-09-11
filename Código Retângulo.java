@@ -8,6 +8,10 @@ class Retangulo {
         this.altura = altura;
     }
 
+    public String toString(){
+        return "Base: " + this.base + "\nAltura: " + this.altura;
+    }
+
     // Método para calcular e retornar a área
     public float calcularArea() {
         float area = this.base * this.altura;
