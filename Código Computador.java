@@ -14,6 +14,10 @@ class Computador {
         this.gabinete = gabinete;
     }
 
+    public String toString(){
+        return "Ram: " + this.ram + "\nProcessador: " + this.processador + "\nPlaca de Vídeo: " + this.placaDeVideo + "\nMonitor: " + this.monitor + "\nGabinete: " + this.gabinete;
+    }
+
     public static void main(String[] args) {
         Computador p = new Computador(8, "Intel core 7", "Nvidia 2090", "LG 24MS500", "Tgt Legion");
         System.out.println("Ram: " + p.ram);
